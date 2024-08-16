@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.6ffda02e.css",
-    "main.js": "/about-me/static/js/main.97d4bed3.js",
+    "main.css": "/about-me/static/css/main.885246e3.css",
+    "main.js": "/about-me/static/js/main.f3cce413.js",
     "static/js/453.0fbe92db.chunk.js": "/about-me/static/js/453.0fbe92db.chunk.js",
     "static/media/hero-section-testing.png": "/about-me/static/media/hero-section-testing.8203043e7817bbeafa93.png",
     "static/media/hero-section-background.jpg": "/about-me/static/media/hero-section-background.69f535b3576243e198d1.jpg",
@@ -9,14 +9,13 @@
     "static/media/Rubik-VariableFont_wght.ttf": "/about-me/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/hero-section-implementation.png": "/about-me/static/media/hero-section-implementation.da40f798b309a65890c7.png",
     "static/media/KodeMono-VariableFont_wght.ttf": "/about-me/static/media/KodeMono-VariableFont_wght.9ae07349897c5fb8e035.ttf",
-    "static/media/hero-section-background-pba.jpg": "/about-me/static/media/hero-section-background-pba.e96b3bb38c4827b16bbb.jpg",
     "index.html": "/about-me/index.html",
-    "main.6ffda02e.css.map": "/about-me/static/css/main.6ffda02e.css.map",
-    "main.97d4bed3.js.map": "/about-me/static/js/main.97d4bed3.js.map",
+    "main.885246e3.css.map": "/about-me/static/css/main.885246e3.css.map",
+    "main.f3cce413.js.map": "/about-me/static/js/main.f3cce413.js.map",
     "453.0fbe92db.chunk.js.map": "/about-me/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ffda02e.css",
-    "static/js/main.97d4bed3.js"
+    "static/css/main.885246e3.css",
+    "static/js/main.f3cce413.js"
   ]
 }
