@@ -66,7 +66,7 @@ const FadingImageDisplayComponent: React.FC<FadingImageDisplayComponentProps> = 
 
     return <>
             <mesh ref={ref} material={imageFadeMaterial}>
-                <planeGeometry args={[4, 4]}/>
+                <planeGeometry args={[5, 5]}/>
             </mesh>
     
     </>
