@@ -61,16 +61,21 @@ const HomePageComponent: React.FC = () => {
                     </div>
     
                 </div>
-                <div className="row" style={{display: 'flex', justifyContent:'center', height:'15%', width:"100%"}}>
-                <a href="#personal-info-section">
 
-                    <button className="hero-section-button">
-                                LET ME HELP YOU
-                    </button>
+                <div className="row" style={{display: 'flex', justifyContent:'center', alignItems: 'center', height:'15%', width:"100%", padding:"30px", margin: "0px"}}>
+                    <div>
 
-                </a>
+                    <a href="#personal-info-section" className="hero-section-button">
+
+                                    LET ME HELP YOU
+
+                    </a>
+                    </div>
                 </div>
               
+            </div>
+            <div className="container-fluid" id="personal-info-section" style={{backgroundColor: "grey", height:"100vh"}}>
+
             </div>
 
         

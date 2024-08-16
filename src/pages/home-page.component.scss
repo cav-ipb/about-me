@@ -11,7 +11,8 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .hero-section {
-        background-image: url("../assets/images/home-page/hero-section-background-pba.jpg");
+        background-image: none;
+        background-color: #F8F8F8;
         min-height: 100vh;
         height: fit-content;
     }
@@ -82,11 +83,25 @@
 
 
 .hero-section-button {
-    height: 70px; 
+    height: 60px; 
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 20px;
     background-color: transparent;
     border: 2px solid black;
     transition: background-color 0.7s ease, color 0.7s ease;
     font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.hero-section-button:hover {
+    background-color: black;
+    color: white;
 }
