@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/about-me/static/css/main.0a1d815d.css",
+    "main.js": "/about-me/static/js/main.afc5c242.js",
+    "static/js/453.0fbe92db.chunk.js": "/about-me/static/js/453.0fbe92db.chunk.js",
+    "static/media/hero-section-background.jpg": "/about-me/static/media/hero-section-background.69f535b3576243e198d1.jpg",
+    "static/media/Rubik-VariableFont_wght.ttf": "/about-me/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
+    "static/media/hero-section-testing.png": "/about-me/static/media/hero-section-testing.6499a8c675dfb14ef9fb.png",
+    "static/media/hero-section-design.png": "/about-me/static/media/hero-section-design.aac26694659206f70d9e.png",
+    "static/media/hero-section-implementation.png": "/about-me/static/media/hero-section-implementation.da40f798b309a65890c7.png",
+    "static/media/KodeMono-VariableFont_wght.ttf": "/about-me/static/media/KodeMono-VariableFont_wght.9ae07349897c5fb8e035.ttf",
+    "index.html": "/about-me/index.html",
+    "main.0a1d815d.css.map": "/about-me/static/css/main.0a1d815d.css.map",
+    "main.afc5c242.js.map": "/about-me/static/js/main.afc5c242.js.map",
+    "453.0fbe92db.chunk.js.map": "/about-me/static/js/453.0fbe92db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a1d815d.css",
+    "static/js/main.afc5c242.js"
+  ]
+}
