@@ -8,6 +8,8 @@ import { Canvas } from "@react-three/fiber";
 import "./home-page.component.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faOrcid } from "@fortawesome/free-brands-svg-icons";
+import { faMessage } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faLanguage } from "@fortawesome/free-solid-svg-icons";
 
 const HomePageComponent: React.FC = () => {
     return (
@@ -70,23 +72,58 @@ const HomePageComponent: React.FC = () => {
               
             </div>
 
-            <div className="app-header">
+            {/* <div className="app-header">
 
-            </div>
+            </div> */}
 
-            <div className="container-fluid" id="personal-info-section" style={{backgroundColor: "#E6E6E6", height:"100vh"}}>
+            <div className="container-fluid" id="personal-info-section" style={{backgroundColor: "#161B23", height:"100vh"}}>
                 
-              
-                <div className="row">
-                    <div className="col-lg-4"></div>
-                    <div className="col-lg-8">
+                <div className="row pt-4 d-flex justify-content-center" style={{height:"15%"}}>
+                    <h1 className="about-me-header">Who I am</h1>
+                </div>
+                <div className="row pr-4 pl-4" style={{height:"70%"}}>
+                    <div className="col-lg-3 d-flex flex-column justify-content-center pr-4" style={{borderRight:"3px solid white"}}>
+                        <div style={{height:"400px", backgroundColor:"white"}}></div>
+                        
+                        <ul className="text-white">
+                            <li>Date of Birth: 22.11.1999</li>
+                            <li>Location: Halle (Saale), Germany</li>
+                            <li>Email: </li>
+                            <li>Language: Spanish, English</li>
+                        </ul>
 
-                        <p style={{font:"1.5rem lora-regular, serif", color:"#555555", lineHeight:"1.8"}}> 
-                        Ad aliqua excepteur est do nulla aliquip ullamco. Voluptate reprehenderit cupidatat ea dolor enim deserunt officia occaecat fugiat enim exercitation mollit occaecat ipsum. Sint non cillum id. Officia reprehenderit minim et. Excepteur id qui amet veniam cupidatat minim eu.
-                        </p>
+                    </div>
+                    <div className="col-lg-9 d-flex flex-column justify-content-center pl-4">
+
+
+                        <div>
+                            <p style={{font:"1.5rem lora-regular, serif", color:"#ffffff", lineHeight:"1.5"}}> 
+                            Hello, I am Victor, and I always get the job done. I am a skilled full-stack developer who can not leave a problem unsolved.
+                            
+                            My go-to approach is to really understand the business to build the best computational solution to solve its needs. 
+                            
+                            My experience in the different areas of software development allows me to quickly grasp a global understanding of projects and seamlessly integrate into any team in a very short time. 
+                            
+                            I believe that hard work and consistency are the keys to success in any environment, and I bring these values anywhere I go.
+
+                            </p>
+                        </div>
+
+
+                        <div className="d-flex justify-content-center">
+                            <button style={{backgroundColor:"white"}}>Contact Me</button>
+                            <button style={{backgroundColor:"white"}}>Download CV</button>
+                        </div>
+
+
+                        
                     </div>
 
                 </div>
+
+                <div className="row" style={{height:"15%"}}>
+
+</div>
             </div>
 
         

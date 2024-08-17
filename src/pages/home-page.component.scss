@@ -83,15 +83,15 @@
 
 
 .hero-section-button {
-    height: 60px; 
+
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 12px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: transparent;
     border: 2px solid black;
     transition: background-color 0.7s ease, color 0.7s ease;
-    font-size: 25px;
+    font-size: 1.2rem;
     text-decoration: none;
     cursor: pointer;
     color:black;
@@ -112,4 +112,10 @@
     background-color: black;
     position: sticky;
     top: 0px;
+}
+
+.about-me-header {
+    font-family: Rubik, serif;
+    font-size: 3em;
+    color: white;
 }
