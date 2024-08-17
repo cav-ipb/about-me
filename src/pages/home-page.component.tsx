@@ -62,20 +62,31 @@ const HomePageComponent: React.FC = () => {
     
                 </div>
 
-                <div className="row" style={{display: 'flex', justifyContent:'center', alignItems: 'center', height:'15%', width:"100%", padding:"30px", margin: "0px"}}>
+                <div className="row" style={{display: 'flex', justifyContent:'center',  height:'15%', width:"100%", paddingBottom:"4rem", margin: "0px"}}>
                     <div>
-
-                    <a href="#personal-info-section" className="hero-section-button">
-
-                                    LET ME HELP YOU
-
-                    </a>
+                        <a href="#personal-info-section" className="hero-section-button">LET ME HELP YOU</a>
                     </div>
                 </div>
               
             </div>
-            <div className="container-fluid" id="personal-info-section" style={{backgroundColor: "grey", height:"100vh"}}>
 
+            <div className="app-header">
+
+            </div>
+
+            <div className="container-fluid" id="personal-info-section" style={{backgroundColor: "#E6E6E6", height:"100vh"}}>
+                
+              
+                <div className="row">
+                    <div className="col-lg-4"></div>
+                    <div className="col-lg-8">
+
+                        <p style={{font:"1.5rem lora-regular, serif", color:"#555555", lineHeight:"1.8"}}> 
+                        Ad aliqua excepteur est do nulla aliquip ullamco. Voluptate reprehenderit cupidatat ea dolor enim deserunt officia occaecat fugiat enim exercitation mollit occaecat ipsum. Sint non cillum id. Officia reprehenderit minim et. Excepteur id qui amet veniam cupidatat minim eu.
+                        </p>
+                    </div>
+
+                </div>
             </div>
 
         
