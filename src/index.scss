@@ -1,6 +1,13 @@
 @import './assets/styles/bootstrap/bootstrap-grid.css';
 @import './assets/styles/bootstrap/bootstrap.min.css';
 
+:root {
+  --app-primary-color: #4EC9B0;
+  --app-secondary-color: #61AFEE;
+  --app-ternary-color: #90C9E7;
+  --app-alternative-color: #C775DF;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -58,3 +65,4 @@ body {
   width: 100vw;
   // overflow-x: hidden;
 }
+

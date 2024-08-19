@@ -9,7 +9,7 @@ import "./home-page.component.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faOrcid } from "@fortawesome/free-brands-svg-icons";
 import { faMessage } from "@fortawesome/free-regular-svg-icons";
-import { faEnvelope, faLanguage } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faCommentDots, faLocationDot, faBuilding } from "@fortawesome/free-solid-svg-icons";
 
 const HomePageComponent: React.FC = () => {
     return (
@@ -84,13 +84,29 @@ const HomePageComponent: React.FC = () => {
                 <div className="row pr-4 pl-4" style={{height:"70%"}}>
                     <div className="col-lg-3 d-flex flex-column justify-content-center pr-4" style={{borderRight:"3px solid white"}}>
                         <div style={{height:"400px", backgroundColor:"white"}}></div>
-                        
-                        <ul className="text-white">
+                        <div className="text-white">
+
+                            <div className="d-flex">
+                                
+                                <FontAwesomeIcon icon={faEnvelope} size="lg"></FontAwesomeIcon> vmcardentey99@gmail.com
+                            </div>
+                            <div className="d-flex">
+                                <FontAwesomeIcon icon={faLocationDot} size="lg"></FontAwesomeIcon> Halle (Saale), Germany
+                            </div>
+                            <div className="d-flex">
+                                <FontAwesomeIcon icon={faBuilding} size="lg"></FontAwesomeIcon> Leibniz Institute of Plant Biochemistry
+                            </div>
+                            <div className="d-flex">
+                                <FontAwesomeIcon icon={faCommentDots} size="lg"></FontAwesomeIcon> Spanish | English
+                            </div>
+                        </div>
+
+                        {/* <ul className="text-white">
                             <li>Date of Birth: 22.11.1999</li>
                             <li>Location: Halle (Saale), Germany</li>
                             <li>Email: </li>
                             <li>Language: Spanish, English</li>
-                        </ul>
+                        </ul> */}
 
                     </div>
                     <div className="col-lg-9 d-flex flex-column justify-content-center pl-4">
@@ -111,8 +127,9 @@ const HomePageComponent: React.FC = () => {
 
 
                         <div className="d-flex justify-content-center">
-                            <button style={{backgroundColor:"white"}}>Contact Me</button>
-                            <button style={{backgroundColor:"white"}}>Download CV</button>
+                        
+                                <button className="my-button" style={{marginRight:"15px"}}>Contact Me</button>
+                                <button className="my-button" >Download CV</button>
                         </div>
 
 
