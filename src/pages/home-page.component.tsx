@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faOrcid } from "@fortawesome/free-brands-svg-icons";
 import { faMessage } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope, faCommentDots, faLocationDot, faBuilding } from "@fortawesome/free-solid-svg-icons";
+import ButtonComponent from "../components/button/button.component";
 
 const HomePageComponent: React.FC = () => {
     return (
@@ -127,9 +128,8 @@ const HomePageComponent: React.FC = () => {
 
 
                         <div className="d-flex justify-content-center">
-                        
-                                <button className="my-button" style={{marginRight:"15px"}}>Contact Me</button>
-                                <button className="my-button" >Download CV</button>
+                                <ButtonComponent label="Contact Me" color="primary" style={{marginRight: '15px'}}/>
+                                <ButtonComponent label="Download CV" color="secondary"/>
                         </div>
 
 
