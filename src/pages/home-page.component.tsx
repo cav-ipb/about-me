@@ -112,7 +112,21 @@ const HomePageComponent: React.FC = () => {
                     </div>
                     <div className="col-lg-9 d-flex flex-column justify-content-center pl-4">
 
+                        <h2 style={{color:"var( --app-secondary-color)"}}> Who I am</h2>
+                        <div>
+                            <p style={{font:"1.5rem Ubuntu, serif", color:"#ffffff", lineHeight:"1.5"}}> 
+                            Hello, I am Victor, and I always get the job done. I am a skilled full-stack developer who can not leave a problem unsolved.
+                            
+                            My go-to approach is to really understand the business to build the best computational solution to solve its needs. 
+                            
+                            My experience in the different areas of software development allows me to quickly grasp a global understanding of projects and seamlessly integrate into any team in a very short time. 
+                            
+                            I believe that hard work and consistency are the keys to success in any environment, and I bring these values anywhere I go.
 
+                            </p>
+                        </div>
+
+                        <h2 style={{color:"var( --app-secondary-color)"}}> Who I am</h2>
                         <div>
                             <p style={{font:"1.5rem lora-regular, serif", color:"#ffffff", lineHeight:"1.5"}}> 
                             Hello, I am Victor, and I always get the job done. I am a skilled full-stack developer who can not leave a problem unsolved.
