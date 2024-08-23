@@ -115,9 +115,11 @@
 }
 
 .about-me-header {
-    font-family: Rubik, serif;
+    font-family: Ubuntu-Bold, serif;
     font-size: 3em;
-    color: white;
+    color: var(--app-primary-color);
+    height: fit-content;
+    
 }
 
 .my-button {
